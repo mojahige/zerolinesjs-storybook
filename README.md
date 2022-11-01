@@ -8,11 +8,7 @@
 ## Setup
 
 ```shell
-# Install packages
 yarn install
-
-# Run
-yarn storybook
 ```
 
 ## Storybook
