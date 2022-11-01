@@ -1,3 +1,11 @@
-#tab1 {
-  color: red;
+.Tab {
+  padding: 1rem;
+  border: 2px solid currentColor;
+  border-radius: 0.25rem;
+  color: orangered;
+}
+
+.Tab__text {
+  font-weight: 700;
+  font-style: italic;
 }

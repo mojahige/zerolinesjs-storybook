@@ -1,22 +1,61 @@
 <div data-zl="tab-list">
   <button
     type="button"
+    class="p-2 rounded border-current border-solid border-2 text-slate-600"
     data-zl="tab-item target-[#tab1] default active-style-[activeClass] default-style-[defaultClass]"
   >
     Tab 1
   </button>
+
   <button
     type="button"
+    class="p-2 rounded border-current border-solid border-2 text-slate-600"
     data-zl="tab-item target-[#tab2] active-style-[activeClass] default-style-[defaultClass]"
   >
     Tab 2
   </button>
+
+  <button
+    type="button"
+    class="p-2 rounded border-current border-solid border-2 text-slate-600"
+    data-zl="tab-item target-[#tab3] active-style-[activeClass] default-style-[defaultClass]"
+  >
+    Tab 3
+  </button>
 </div>
+
+<hr class="my-8" />
+
 <div id="tab1">
-  <!-- Tab1 Content Here -->
-  <p>Tab1</p>
+  <p
+    class="
+      font-bold
+      italic
+      text-teal-600
+      p-4
+      rounded
+      border-current border-solid border-2
+    "
+  >
+    Tab1 Content
+  </p>
 </div>
+
 <div id="tab2" zl-cloak>
-  <!-- Tab2 Content Here -->
-  <p>Tab2</p>
+  <p
+    class="
+      font-bold
+      italic
+      text-blue-600
+      p-4
+      rounded
+      border-current border-solid border-2
+    "
+  >
+    Tab2 Content
+  </p>
+</div>
+
+<div id="tab3" class="Tab" zl-cloak>
+  <p class="Tab__text">Tab3 Content</p>
 </div>
